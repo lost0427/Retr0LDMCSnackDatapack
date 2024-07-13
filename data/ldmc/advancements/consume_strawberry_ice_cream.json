@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "consume_strawberry_ice_cream": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:mushroom_stew",
+          "components": {
+            "minecraft:custom_model_data": 551
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ldmc:effects/consume_strawberry_ice_cream"
+  }
+}

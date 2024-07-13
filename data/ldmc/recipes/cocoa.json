@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minecraft:cocoa_beans"
+  },
+  "result": {
+    "id": "minecraft:tropical_fish",
+    "components": {
+      "minecraft:custom_model_data": 543,
+      "minecraft:item_name": "可可",
+      "minecraft:lore": [
+        "别吃代可可脂了吃点真的吧"
+      ],
+      "minecraft:unbreakable": {
+        "show_in_tooltip": true
+      }
+    }
+  }
+}

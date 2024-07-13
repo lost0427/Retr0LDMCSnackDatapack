@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "consume_moutai_ice_cream": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:mushroom_stew",
+          "components": {
+            "minecraft:custom_model_data": 542
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ldmc:effects/consume_moutai_ice_cream"
+  }
+}

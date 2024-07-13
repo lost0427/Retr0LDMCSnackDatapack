@@ -1,0 +1,33 @@
+{
+  "criteria": {
+    "recipe_strawberry_juice": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "player": [],
+        "recipe_id": "ldmc:two_potion",
+        "ingredients": [
+          {
+            "items": [
+              "minecraft:potion"
+            ],
+            "components": {
+              "minecraft:custom_model_data": 553
+            }
+          },
+          {
+            "items": "minecraft:potion",
+            "components": {
+              "minecraft:custom_model_data": 554
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "ldmc:recipe/strawberry_juice",
+    "loot": [
+      "ldmc:strawberry_juice"
+    ]
+  }
+}

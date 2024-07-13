@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "111",
+    "121",
+    "111"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:snowball"
+    },
+    "2": {
+      "item": "minecraft:bowl"
+    }
+  },
+  "result": {
+    "id": "minecraft:mushroom_stew",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": "冰激凌",
+      "minecraft:unbreakable": {
+        "show_in_tooltip": true
+      },
+      "minecraft:custom_model_data": 556,
+      "minecraft:lore": [
+        "夏天就该吃冰激凌！"
+      ],
+      "minecraft:food": {
+        "nutrition": 2,
+        "saturation": 2,
+        "can_always_eat": true
+      }
+    }
+  }
+}

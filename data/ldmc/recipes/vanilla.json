@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minecraft:short_grass"
+  },
+  "result": {
+    "id": "minecraft:tropical_fish",
+    "components": {
+      "minecraft:custom_model_data": 548,
+      "minecraft:item_name": "香草",
+      "minecraft:lore": [
+        "很贵，吃不起"
+      ],
+      "minecraft:unbreakable": {
+        "show_in_tooltip": true
+      }
+    }
+  }
+}

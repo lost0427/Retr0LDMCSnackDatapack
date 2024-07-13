@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "consume_melon_slice_juice": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:potion",
+          "components": {
+            "minecraft:custom_model_data": 553
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ldmc:effects/consume_melon_slice_juice"
+  }
+}

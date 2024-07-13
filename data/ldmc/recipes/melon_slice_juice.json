@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:melon_slice"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "result": {
+    "id": "minecraft:potion",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": "西瓜汁",
+      "minecraft:unbreakable": {
+        "show_in_tooltip": true
+      },
+      "minecraft:custom_model_data": 553,
+      "minecraft:lore": [
+        "外国人喝不起！"
+      ]
+    }
+  }
+}

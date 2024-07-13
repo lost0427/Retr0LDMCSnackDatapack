@@ -1,0 +1,30 @@
+{
+  "criteria": {
+    "recipe_vanilla_juice": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "player": [],
+        "recipe_id": "ldmc:vanilla_cocoa_juice",
+        "ingredients": [
+          {
+            "items": [
+              "minecraft:tropical_fish"
+            ],
+            "components": {
+              "minecraft:custom_model_data": 548
+            }
+          },
+          {
+            "items": "minecraft:glass_bottle"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "ldmc:recipe/vanilla_juice",
+    "loot": [
+      "ldmc:vanilla_juice"
+    ]
+  }
+}

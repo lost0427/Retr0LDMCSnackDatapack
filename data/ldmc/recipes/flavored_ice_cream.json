@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:mushroom_stew"
+    },
+    {
+      "item": "minecraft:potion"
+    }
+  ],
+  "result": {
+    "id": "minecraft:knowledge_book",
+    "count": 1,
+    "components": {
+      "minecraft:unbreakable": {
+        "show_in_tooltip": true
+      },
+      "minecraft:lore": [
+        "草莓汁...冰激凌->草莓冰激凌",
+        "西瓜汁...冰激凌->西瓜冰激凌",
+        "香草汁...冰激凌->香草冰激凌",
+        "可可汁...冰激凌->巧克力冰激凌",
+        "甜浆果汁...冰激凌->甜浆果冰激凌"
+      ],
+      "minecraft:item_name": "请确保配方正确喵！"
+    }
+  }
+}

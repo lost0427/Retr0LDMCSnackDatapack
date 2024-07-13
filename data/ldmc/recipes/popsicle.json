@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "111",
+    "121",
+    " 2 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:snowball"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "minecraft:tropical_fish",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": "雪糕",
+      "minecraft:unbreakable": {
+        "show_in_tooltip": true
+      },
+      "minecraft:custom_model_data": 552,
+      "minecraft:food": {
+        "nutrition": 2,
+        "saturation": 2,
+        "can_always_eat": true
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "consume_popsicle": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:honey_bottle",
+          "components": {
+            "minecraft:custom_model_data": 772
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ldmc:effects/popsicle"
+  }
+}

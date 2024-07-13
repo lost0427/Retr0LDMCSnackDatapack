@@ -1,0 +1,37 @@
+{
+  "criteria": {
+    "recipe_neapolitan_ice_cream": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "player": [],
+        "recipe_id": "ldmc:neapolitan_ice_cream",
+        "ingredients": [
+          {
+            "items": "minecraft:mushroom_stew",
+            "components": {
+              "minecraft:custom_model_data": 551
+            }
+          },
+          {
+            "items": "minecraft:mushroom_stew",
+            "components": {
+              "minecraft:custom_model_data": 546
+            }
+          },
+          {
+            "items": "minecraft:mushroom_stew",
+            "components": {
+              "minecraft:custom_model_data": 544
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "ldmc:recipe/neapolitan_ice_cream",
+    "loot": [
+      "ldmc:neapolitan_ice_cream"
+    ]
+  }
+}

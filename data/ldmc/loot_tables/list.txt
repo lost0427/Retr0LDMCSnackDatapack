@@ -1,0 +1,16 @@
+ice_cream 556
+strawberry_juice 555
+sweet_berries_juice 554
+melon_slice_juice 553
+popsicle 552
+strawberry_ice_cream 551
+sweet_berries_ice_cream 550
+melon_slice_ice_cream 549
+vanilla 548
+vanilla _juice 547
+vanilla_ice_cream 546
+cocoa_juice 545
+cocoa_ice_cream 544
+cocoa 543
+moutai_ice_cream 542
+neapolitan_ice_cream 541

@@ -1,0 +1,33 @@
+{
+  "criteria": {
+    "recipe_sweet_berries_ice_cream": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "player": [],
+        "recipe_id": "ldmc:flavored_ice_cream",
+        "ingredients": [
+          {
+            "items": [
+              "minecraft:mushroom_stew"
+            ],
+            "components": {
+              "minecraft:custom_model_data": 556
+            }
+          },
+          {
+            "items": "minecraft:potion",
+            "components": {
+              "minecraft:custom_model_data": 554
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "ldmc:recipe/sweet_berries_ice_cream",
+    "loot": [
+      "ldmc:sweet_berries_ice_cream"
+    ]
+  }
+}
